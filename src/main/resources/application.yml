@@ -8,8 +8,14 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/nktnl89/microservices-configs.git
-          searchPaths: configurations
+          uri: https://github.com/nktnl89/microservices-configs
+          searchPaths: samples
+          username: nktnl89
+          password: CBVgkRTQ_13
+
+#          basedir: target/config
+
 
           #"https://github.com/nktnl89/test-config.git"
           #"C:/Users/Anton_Nikitin/IdeaProjects/vtb-tbr2-poc/infra/config-server/resources" #"https://git.epam.com/igor_petrov/vtb-tbr2-poc.git"
+          # https://github.com/nktnl89/microservices-configs.git
