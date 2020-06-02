@@ -1,0 +1,15 @@
+server:
+  port: 9999
+
+spring:
+  application:
+    name: config_server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/nktnl89/microservices-configs.git
+          searchPaths: configurations
+
+          #"https://github.com/nktnl89/test-config.git"
+          #"C:/Users/Anton_Nikitin/IdeaProjects/vtb-tbr2-poc/infra/config-server/resources" #"https://git.epam.com/igor_petrov/vtb-tbr2-poc.git"
