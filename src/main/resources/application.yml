@@ -9,7 +9,7 @@ spring:
       server:
         git:
           uri: https://github.com/nktnl89/microservices-configs
-          searchPaths: resources
+          searchPaths: configurations
 
 #          https://github.com/nktnl89/test-config
           # local uri - C:\Users\Anton_Nikitin\Desktop\spring-boot-microservice-config-server
